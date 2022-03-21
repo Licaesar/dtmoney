@@ -4,6 +4,8 @@ import { Dashboard } from "./components/Dashboard";
 import Modal from 'react-modal';
 import { useState } from "react";
 
+Modal.setAppElement('#root');
+
 export function App() {
   
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
